@@ -17,13 +17,6 @@ env:
 build:
   #pre_ci:
    # - docker build -t=shippabledocker/sample_node .
-
-  pre_ci_boot:
-    image_name: drydock/u12nodpls
-    image_tag: tip
-    pull: true
-    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
-
   ci:
     - ps -eax
     - ls -al
