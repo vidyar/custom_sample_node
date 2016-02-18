@@ -13,8 +13,8 @@ env:
     - M1=ONE
 
 build:
-  pre_ci:
-    - docker build -t=shippabledocker/sample_node .
+  #pre_ci:
+   # - docker build -t=shippabledocker/sample_node .
 
   pre_ci_boot:
     image_name: shippabledocker/sample_node
@@ -27,6 +27,7 @@ build:
     - ls -al
 
   post_ci:
+    - docker build -t=shippabledocker/sample_node .
     - docker push shippabledocker/sample_node
 
 integrations:
