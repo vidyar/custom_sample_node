@@ -15,21 +15,21 @@ env:
     - M2=two
 
 build:
-  #pre_ci:
-   # - docker build -t=shippabledocker/sample_node .
+  pre_ci:
+    - docker build -t=shippabledocker/sample_node .
 
   pre_ci_boot:
-    image_name: drydock/u12nodpls
+    image_name: shippabledocker/sample_node
     image_tag: tip
-    pull: true
-    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
+    pull: false
+    options: '--privileged=false --net=bridge -e FOO=true -e BOO=false'
 
   ci:
     - ps -eax
     - ls -al
 
   post_ci:
-    - docker build -t=shippabledocker/sample_node .
+    #- docker build -t=shippabledocker/sample_node .
     - docker push shippabledocker/sample_node
 
 integrations:
