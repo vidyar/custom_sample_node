@@ -20,7 +20,7 @@ build:
 
   pre_ci_boot:
     image_name: shippabledocker/sample_node
-    image_tag: tip
+    image_tag: latest
     pull: false
     options: '--privileged=false --net=bridge -e FOO=true -e BOO=false'
 
