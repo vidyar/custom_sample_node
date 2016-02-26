@@ -10,6 +10,7 @@ node_js:
 env:
   global:
     - FOO=FUBU
+    - secure: ojA7jdQvOprEKQgOokS17g9liMApx0NZ2PMRrGhUCdvJPqA0Y+OsMIniWrUT/bZvBmVecBV0Ruk3K/WLkhsk35Jd1532XTJcTv6I/kfCswe5wshYgwYBjusvkRqr3yTEyxLDOs9+u+obsVPadZhmVQBEZKMBq0AynJWrlEOob9cBe6vV2rdnongvj2XKtVbSkovz6xFH/pVdCgaNaK+mtrsmW4EeN3F6gz9Ps/kyGx1lFzHv6r1gwBFaYEG8/ERw6Ji5Gerl0o8oNNTedeVyduQegil44gH4IeYCIXTUyhlEJkaeuTbawkwNRnDjrtNMIDYuHREFOrhYkhjKo2AzYg==
   #  - secure: JheMHVQPS6hMM1M+pHDKwtsDVC3Kdzl7oRnNG/2y3CNyvuiTjcie6+6WK08Ra+q+0xfKHFA4yb8o3Xajipitwu/vkg3YPW8KDhl/hcuuiIK4WT+epZLM8HPSoEDGHpolW+aWFhfFgFWajUe/5+c1sGw99TbIZGM/gcKpS+YZDH+4CtUl8d+erEkIlgVBhNinTCwJiFgGlR0BuhE9ltjiUo9gKCC1lOlUjyz0seNpL7VdlDMzVgMJaPoxWKkOe9+B1RGGCuyHRej0DQEL1gaBX3/Q0jt0e271qIfPoqC8PHO/Opxs5FRdB63C1S/dAXgswCkZm8C6mMl9PiCewizztA==
 
   matrix:
