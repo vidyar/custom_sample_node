@@ -30,7 +30,6 @@ build:
     - ls -al
     - echo $key1
 
-
  
 integrations:
   hub:
