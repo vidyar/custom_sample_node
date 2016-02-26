@@ -31,10 +31,7 @@ build:
     - echo $key1
 
 
-  post_ci:
-    - docker build -t=shippabledocker/sample_node .
-    - docker push shippabledocker/sample_node
-
+ 
 integrations:
   hub:
     - integrationName: ship-docker
